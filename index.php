@@ -32,6 +32,12 @@ while(abs($player1 - $player2)<2 || $player1 < 11 && $player2 < 11){
         echo "Player1 = $player1<br />\n";
         echo "Player2 = $player2<br/>\n";
     }
-
-
+//Summary
+echo "<h1>";
+if ($player1 > $player2){
+    echo "Player1";
+}else{
+    echo "Player2";
+}
+echo " is the winner after $round rounds!</h1>\n";
 ?>
