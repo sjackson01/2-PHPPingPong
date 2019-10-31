@@ -1,0 +1,4 @@
+<?php
+/* !PingPong PHP APP! */
+
+?>
